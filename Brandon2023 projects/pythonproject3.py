@@ -19,15 +19,14 @@ while tries >= 0:
       potato = int(input("\nInsert number from 0 to 10: "))
       if potato == easy_random:
         print("\nwow u win good job")
-        score = score + 1
-        tries = tries - 1
+        score += 1
+        tries -= 1
         print("\nYour score is: " + str(score))
         print("\nCPU score is: " + str(cpu_score))
         print("\nNext round starting goood luck!")
       elif potato != easy_random:
-        tries = tries - 1
-        scoure = score - 1
-        cpu_score = cpu_score + 1
+        tries -= 1
+        cpu_score += 1
         print("\nYour score is: " + str(score))
         print("\nCPU score is: " + str(cpu_score))
         print("\nur wrong")
@@ -38,15 +37,14 @@ while tries >= 0:
       apple = int(input("\nInsert number from 0 to 50: "))
       if apple == medium_random:
         print("\nwow u win good job")
-        score = score + 1
-        tries = tries - 1
+        score += 1
+        tries -= 1
         print("\nYour score is: " + str(score))
         print("\nCPU score is: " + str(cpu_score))
         print("\nNext round starting goood luck!")
       elif apple != medium_random:
-        tries = tries - 1
-        scoure = score - 1
-        cpu_score = cpu_score + 1
+        tries -= 1
+        cpu_score += 1
         print("\nYour score is: " + str(score))
         print("\nCPU score is: " + str(cpu_score))
         print("\nur wrong")
@@ -57,15 +55,14 @@ while tries >= 0:
       coconut = int(input("\nInsert number from 0 to 50: "))
       if coconut == pain_random:
         print("\nwow u win good job")
-        score = score + 1
-        tries = tries - 1
+        score += 1
+        tries -= 1
         print("\nYour score is: " + str(score))
         print("\nCPU score is: " + str(cpu_score))
         print("\nNext round starting goood luck!")
       elif coconut != pain_random:
-        tries = tries - 1
-        scoure = score - 1
-        cpu_score = cpu_score + 1
+        tries -= 1
+        cpu_score += 1
         print("\nYour score is: " + str(score))
         print("\nCPU score is: " + str(cpu_score))
         print("\nur wrong")
