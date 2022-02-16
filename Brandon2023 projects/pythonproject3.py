@@ -21,11 +21,14 @@ while tries >= 0:
         score = score + 1
         tries = tries - 1
         print("\nYour score is: " + str(score))
+        print("\nCPU score is: " + str(cpu_score))
         print("\nNext round starting goood luck!")
       elif potato != easy_random:
         tries = tries - 1
         scoure = score - 1
         cpu_score = cpu_score + 1
+        print("\nYour score is: " + str(score))
+        print("\nCPU score is: " + str(cpu_score))
         print("\nur wrong")
         print("\nNext round starting goood luck!")
 
@@ -37,11 +40,14 @@ while tries >= 0:
         score = score + 1
         tries = tries - 1
         print("\nYour score is: " + str(score))
+        print("\nCPU score is: " + str(cpu_score))
         print("\nNext round starting goood luck!")
       elif apple != medium_random:
         tries = tries - 1
         scoure = score - 1
         cpu_score = cpu_score + 1
+        print("\nYour score is: " + str(score))
+        print("\nCPU score is: " + str(cpu_score))
         print("\nur wrong")
         print("\nNext round starting goood luck!")
 
@@ -53,11 +59,14 @@ while tries >= 0:
         score = score + 1
         tries = tries - 1
         print("\nYour score is: " + str(score))
+        print("\nCPU score is: " + str(cpu_score))
         print("\nNext round starting goood luck!")
       elif coconut != pain_random:
         tries = tries - 1
         scoure = score - 1
         cpu_score = cpu_score + 1
+        print("\nYour score is: " + str(score))
+        print("\nCPU score is: " + str(cpu_score))
         print("\nur wrong")
         print("\nNext round starting goood luck!")
 
